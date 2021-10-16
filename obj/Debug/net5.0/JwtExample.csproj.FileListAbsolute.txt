@@ -269,3 +269,8 @@ D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\JwtExample.dll
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\ref\JwtExample.dll
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\JwtExample.pdb
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\JwtExample.genruntimeconfig.cache
+D:\Source\Repos\dev-bendawood\dotnet-gwt\bin\Debug\net5.0\publish\web.config
+D:\Source\Repos\dev-bendawood\dotnet-gwt\bin\Debug\net5.0\publish\appsettings.Development.json
+D:\Source\Repos\dev-bendawood\dotnet-gwt\bin\Debug\net5.0\publish\appsettings.json
+D:\Source\Repos\dev-bendawood\dotnet-gwt\bin\Debug\net5.0\publish\JwtExample.deps.json
+D:\Source\Repos\dev-bendawood\dotnet-gwt\bin\Debug\net5.0\publish\JwtExample.runtimeconfig.json
