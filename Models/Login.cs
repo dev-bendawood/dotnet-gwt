@@ -9,14 +9,16 @@ namespace JwtExample.Models
         public string username { get; set; }
         public string password { get; set; }
 
-        public Login(){}
+        public Login() { }
 
-        public Login(string username, string password){
-            this.username=username;
-            this.password=password;
+        public Login(string username, string password)
+        {
+            this.username = username;
+            this.password = password;
         }
 
-        public static string GetClaimValue(IEnumerable<Claim> claims, string type){
+        public static string GetClaimValue(IEnumerable<Claim> claims, string type)
+        {
             return claims.Where(c => c.Type == type)
                    .Select(c => c.Value).SingleOrDefault();
         }

@@ -16,11 +16,10 @@ namespace JwtExample
     {
         [HttpGet]
         [Authorize(Roles = "manager")]
-        public IEnumerable<string> Get()
+        public ListResponse<string> Get()
         {
-            string address=Login.GetClaimValue(User.Claims, ClaimTypes.Name);
-           //string address="123";
-            return new string[] { "s1", "s2", address };
+            string address = Login.GetClaimValue(User.Claims, ClaimTypes.Name);
+            return new ListResponse<string>(3,  new string[] { "s1", "s2", address });
         }
     }
 }
