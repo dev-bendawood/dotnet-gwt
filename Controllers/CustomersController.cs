@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using JwtExample.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,8 +19,8 @@ namespace JwtExample
         public IEnumerable<string> Get()
         {
 
-            var address = User.Claims.Where(c => c.Type == ClaimTypes.Name)
-                   .Select(c => c.Value).SingleOrDefault();
+            string address=Login.GetClaim(User.Claims, ClaimTypes.Name);
+           //string address="123";
             return new string[] { "s1", "s2", address };
         }
     }

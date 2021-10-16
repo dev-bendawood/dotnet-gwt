@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using JwtExample.models;
+using JwtExample.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -17,13 +17,12 @@ namespace JwtExample
     public class AuthController : ControllerBase
     {
         [HttpPost, Route("login")]
-        public IActionResult Login([FromBody] LoginModel user)
+        public IActionResult Login([FromBody] Login user)
         {
             if (user.username == "user")
             {
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("secret_keysecret_keysecret_key"));
-                var signingCredintials = new SigningCredentials(
-                    secretKey, SecurityAlgorithms.HmacSha256);
+                var signingCredintials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, user.username),
