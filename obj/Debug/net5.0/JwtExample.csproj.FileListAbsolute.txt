@@ -265,7 +265,6 @@ D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\staticwebassets\JwtExa
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\staticwebassets\JwtExample.StaticWebAssets.xml
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\scopedcss\bundle\JwtExample.styles.css
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\JwtExample.RazorTargetAssemblyInfo.cache
-D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\JwtExample.csproj.CopyComplete
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\JwtExample.dll
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\ref\JwtExample.dll
 D:\Source\Repos\dev-bendawood\dotnet-gwt\obj\Debug\net5.0\JwtExample.pdb
