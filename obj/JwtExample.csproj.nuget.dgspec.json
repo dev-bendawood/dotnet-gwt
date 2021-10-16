@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source\\test\\JwtExample\\JwtExample.csproj": {}
+    "D:\\Source\\Repos\\dev-bendawood\\dotnet-gwt\\JwtExample.csproj": {}
   },
   "projects": {
-    "D:\\Source\\test\\JwtExample\\JwtExample.csproj": {
+    "D:\\Source\\Repos\\dev-bendawood\\dotnet-gwt\\JwtExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\test\\JwtExample\\JwtExample.csproj",
+        "projectUniqueName": "D:\\Source\\Repos\\dev-bendawood\\dotnet-gwt\\JwtExample.csproj",
         "projectName": "JwtExample",
-        "projectPath": "D:\\Source\\test\\JwtExample\\JwtExample.csproj",
-        "packagesPath": "C:\\Users\\Abd\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\test\\JwtExample\\obj\\",
+        "projectPath": "D:\\Source\\Repos\\dev-bendawood\\dotnet-gwt\\JwtExample.csproj",
+        "packagesPath": "C:\\Users\\daw\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\dev-bendawood\\dotnet-gwt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\daw\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -40,17 +40,17 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.11, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
