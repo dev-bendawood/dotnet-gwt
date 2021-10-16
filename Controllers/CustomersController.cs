@@ -18,8 +18,7 @@ namespace JwtExample
         [Authorize(Roles = "manager")]
         public IEnumerable<string> Get()
         {
-
-            string address=Login.GetClaim(User.Claims, ClaimTypes.Name);
+            string address=Login.GetClaimValue(User.Claims, ClaimTypes.Name);
            //string address="123";
             return new string[] { "s1", "s2", address };
         }

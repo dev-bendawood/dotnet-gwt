@@ -16,7 +16,7 @@ namespace JwtExample.Models
             this.password=password;
         }
 
-        public static string GetClaim(IEnumerable<Claim> claims, string type){
+        public static string GetClaimValue(IEnumerable<Claim> claims, string type){
             return claims.Where(c => c.Type == type)
                    .Select(c => c.Value).SingleOrDefault();
         }
